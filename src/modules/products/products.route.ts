@@ -9,6 +9,7 @@ const productsRoutes: FastifyPluginAsync = async (fastify: FastifyInstance, opti
   fastify.get('/', controller.getAll);
   fastify.get('/:id', controller.get);
   fastify.delete('/:id', controller.deleteById);
+  fastify.put('/:id', controller.update);
   fastify.post('/', controller.createProduct);
 };
 

@@ -60,4 +60,36 @@ export class ProductsService {
     this.products.push(product as Product);
     return reply.code(200).send(product);
   };
+
+  updateProduct = (
+    request: FastifyRequest<{ Params: { id: string }; Body: Partial<Product> }>,
+    reply: FastifyReply,
+  ) => {
+    if (!isUUID(request.params.id)) {
+      return reply.code(400).send({ message: 'Invalid UUID' });
+    }
+    const product = this.products.filter((product) => product.id === request.params.id)[0];
+    if (!product) {
+      return reply.code(404).send({ message: 'Product not found' });
+    }
+    if (!request.body) {
+      return reply.code(404).send({ message: 'invalid data' });
+    }
+    const data = request.body;
+    if (
+      Object.entries(data).some(
+        ([key, value]) => value === undefined || value === '' || value === null,
+      ) ||
+      (data.price && data.price < 0)
+    ) {
+      return reply.code(400).send({
+        message: 'body does not contain required fields or if price is not a positive number',
+      });
+    }
+    data.id = request.params.id;
+    this.products = this.products.map((item) =>
+      product.id === item.id ? (data as Product) : item,
+    );
+    return reply.code(200).send(data);
+  };
 }
