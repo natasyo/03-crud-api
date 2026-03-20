@@ -18,7 +18,7 @@ export class ProductsController {
     return this.service.addProduct(request, reply);
   };
   update = (
-    request: FastifyRequest<{ Params: { id: string }; Body: Partial<Product> }>,
+    request: FastifyRequest<{ Params: { id: string }; Body: Product }>,
     reply: FastifyReply,
   ) => {
     return this.service.updateProduct(request, reply);

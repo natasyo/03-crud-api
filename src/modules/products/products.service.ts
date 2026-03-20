@@ -1,14 +1,13 @@
 import { Product } from '../../types';
-import * as fs from 'node:fs';
-import path from 'node:path';
 import { isUUID } from '../../util/uuid';
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { randomUUID } from 'node:crypto';
 
 export class ProductsService {
-  products: Product[] = JSON.parse(
-    fs.readFileSync(path.join(process.cwd(), 'src/data/products.json'), { encoding: 'utf-8' }),
-  );
+  // products: Product[] = JSON.parse(
+  //   fs.readFileSync(path.join(process.cwd(), 'src/data/products.json'), { encoding: 'utf-8' }),
+  // );
+  products:Product[]=[]
   static products: any;
   constructor() {}
   getProducts = () => {
@@ -62,7 +61,7 @@ export class ProductsService {
   };
 
   updateProduct = (
-    request: FastifyRequest<{ Params: { id: string }; Body: Partial<Product> }>,
+    request: FastifyRequest<{ Params: { id: string }; Body: Product }>,
     reply: FastifyReply,
   ) => {
     if (!isUUID(request.params.id)) {
@@ -76,11 +75,11 @@ export class ProductsService {
       return reply.code(404).send({ message: 'invalid data' });
     }
     const data = request.body;
+    console.log(data as Product);
     if (
       Object.entries(data).some(
         ([key, value]) => value === undefined || value === '' || value === null,
-      ) ||
-      (data.price && data.price < 0)
+      )
     ) {
       return reply.code(400).send({
         message: 'body does not contain required fields or if price is not a positive number',
