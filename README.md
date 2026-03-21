@@ -5,19 +5,21 @@ This project was bootstrapped with Fastify-CLI.
 
 In the project directory, you can run:
 
-### `npm run start:dev`
 
+
+### `npm run start:dev`
 To start the app in dev mode.\
 Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
-### `npm run start:prod`
 
+### `npm run start:prod`
 For production mode
 
-### `npm run test`
 
+### `npm run test`
 Run the test cases.
 
-## Learn More
+### `npm run  start:multi`
+Run the multiple instances
 
 To learn Fastify, check out the [Fastify documentation](https://fastify.dev/docs/latest/).
