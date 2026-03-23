@@ -22,12 +22,14 @@ Run the test cases.
 ### `npm run  start:multi`
 Run the multiple instances
 
-Method	URL	Description
-GET	/api/products	Get all products
-GET	/api/products/:id	Get product by id
-POST	/api/products	Create product
-PUT	/api/products/:id	Update product
-DELETE	/api/products/:id	Delete product
+| Method | URL | Description |
+|--------|-----|-------------|
+| GET | /api/products | Get all products |
+| GET | /api/products/:id | Get product by id |
+| POST | /api/products | Create product |
+| PUT | /api/products/:id | Update product |
+| DELETE | /api/products/:id | Delete product |
+
 
 
 
