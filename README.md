@@ -37,4 +37,15 @@ Launches a load balancer on the configured `PORT` and spawns worker processes (o
 ### `npm run  start:multi`
 
 
+| Method | URL | Description |
+|--------|-----|-------------|
+| GET | /api/products | Get all products |
+| GET | /api/products/:id | Get product by id |
+| POST | /api/products | Create product |
+| PUT | /api/products/:id | Update product |
+| DELETE | /api/products/:id | Delete product |
+
+
+
+
 To learn Fastify, check out the [Fastify documentation](https://fastify.dev/docs/latest/).
