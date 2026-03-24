@@ -1,0 +1,802 @@
+[
+  {
+    "id": "1f357d39-f523-4fcf-bbd4-921d6ffd4834",
+    "name": "Chia Seeds",
+    "description": "Nutty flavored chia seeds, packed with nutrients.",
+    "price": 6.99,
+    "category": "Food - Grains",
+    "ingredients": false
+  },
+  {
+    "id": "824e412d-32a9-44ad-b53d-a22a86e194b7",
+    "name": "Whole Roasted Chicken",
+    "description": "Seasoned and roasted to perfection, ready to eat.",
+    "price": 9.99,
+    "category": "Food - Meats",
+    "ingredients": false
+  },
+  {
+    "id": "84829ca4-7daf-4ae7-8c87-0f93627ffb3d",
+    "name": "Raspberry Limeade",
+    "description": "Sweet and tangy raspberry lime beverage",
+    "price": 1.99,
+    "category": "Food - Beverages",
+    "ingredients": false
+  },
+  {
+    "id": "59a86aa4-15ac-4ee3-a5df-84f3d71e465f",
+    "name": "Herb Seasoned Croutons",
+    "description": "Crunchy croutons with a blend of herbs for salads.",
+    "price": 2.99,
+    "category": "Food - Salad Toppings",
+    "ingredients": true
+  },
+  {
+    "id": "7738421f-73d6-4936-9a32-41d41cfef6db",
+    "name": "Organic Apples",
+    "description": "Crisp and delicious organic apples.",
+    "price": 1.89,
+    "category": "Food - Produce",
+    "ingredients": true
+  },
+  {
+    "id": "47c614c1-d366-4949-b9c5-6f2e0ebb0002",
+    "name": "Protein Pancake Mix",
+    "description": "A protein-packed pancake mix for a nutritious breakfast.",
+    "price": 3.99,
+    "category": "Food - Breakfast",
+    "ingredients": false
+  },
+  {
+    "id": "1802fd96-312d-4039-8f38-c987f75217d2",
+    "name": "Slim Wallet",
+    "description": "RFID-blocking slim wallet for cards and cash.",
+    "price": 24.99,
+    "category": "Accessories",
+    "ingredients": false
+  },
+  {
+    "id": "06e8fb0a-3674-4884-ba92-9269658122ea",
+    "name": "Roasted Garlic Mashed Potatoes",
+    "description": "Creamy mashed potatoes infused with roasted garlic flavor.",
+    "price": 3.99,
+    "category": "Food - Frozen Foods",
+    "ingredients": false
+  },
+  {
+    "id": "756fc262-814a-4455-9049-9d76efba1321",
+    "name": "Wrap Front Midi Skirt",
+    "description": "Elegant midi skirt with a wrap design, great for both formal and casual events.",
+    "price": 44.99,
+    "category": "Clothing - Bottoms",
+    "ingredients": true
+  },
+  {
+    "id": "7889d3bb-b194-441c-bfbc-d4b4916cc435",
+    "name": "Tandoori Chicken Marinade",
+    "description": "Delicious and tangy marinade for grilling or baking chicken.",
+    "price": 2.49,
+    "category": "Food - Condiments",
+    "ingredients": true
+  },
+  {
+    "id": "86717e7b-7fe5-420f-b9c6-c35c40363f0a",
+    "name": "Tahini",
+    "description": "Creamy tahini made from ground sesame seeds.",
+    "price": 5.49,
+    "category": "Food - Condiments",
+    "ingredients": false
+  },
+  {
+    "id": "81f83339-9eb4-40ab-849f-07b264a7ec90",
+    "name": "Travel Mug with Leak-Proof Lid",
+    "description": "Stainless steel travel mug that keeps drinks hot or cold.",
+    "price": 24.99,
+    "category": "Kitchen",
+    "ingredients": false
+  },
+  {
+    "id": "14303ac2-eb45-4103-9afb-15eb0e3e6b3b",
+    "name": "Cotton Tote Bag Set",
+    "description": "Reusable tote bags for shopping and eco-friendly living.",
+    "price": 29.99,
+    "category": "Accessories",
+    "ingredients": true
+  },
+  {
+    "id": "fcb0b6a0-6e9f-413e-b84e-3add0ab91c96",
+    "name": "Maple Pecan Oatmeal Cookies",
+    "description": "Soft oatmeal cookies with maple and pecans.",
+    "price": 3.99,
+    "category": "Food - Bakery",
+    "ingredients": false
+  },
+  {
+    "id": "453ea1fc-d34c-4564-be22-78ebafd8e1bc",
+    "name": "LED Makeup Mirror",
+    "description": "Illuminated vanity mirror with adjustable brightness settings.",
+    "price": 39.99,
+    "category": "Beauty",
+    "ingredients": false
+  },
+  {
+    "id": "c2f142e8-9352-4d3c-a2e1-43ade34d7c0f",
+    "name": "Multi-Cooker",
+    "description": "Versatile multi-cooker for pressure cooking and slow cooking.",
+    "price": 89.99,
+    "category": "Kitchen",
+    "ingredients": true
+  },
+  {
+    "id": "dc78c584-494b-4ff3-b303-78a22b853260",
+    "name": "Ethically-Sourced Coffee Beans",
+    "description": "Freshly roasted coffee beans with rich flavor.",
+    "price": 9.99,
+    "category": "Food - Beverages",
+    "ingredients": false
+  },
+  {
+    "id": "0ee35c98-a1dd-45b6-ac56-f48ee1a4c151",
+    "name": "Caramel Sauce",
+    "description": "Rich sauce for desserts and ice cream.",
+    "price": 3.49,
+    "category": "Food - Condiments",
+    "ingredients": true
+  },
+  {
+    "id": "cb9a3e7d-9a34-4743-b5d6-7743c0709773",
+    "name": "Children's Art Set",
+    "description": "All-in-one art set for kids to unleash creativity.",
+    "price": 34.99,
+    "category": "Toys",
+    "ingredients": false
+  },
+  {
+    "id": "adf73e9a-2efe-416a-816f-5bda9990563f",
+    "name": "Chocolate Syrup",
+    "description": "Rich chocolate syrup for ice cream or beverages.",
+    "price": 2.99,
+    "category": "Food - Condiments",
+    "ingredients": false
+  },
+  {
+    "id": "2c628175-3ce9-4938-ab33-becbc9f807d4",
+    "name": "Vintage Button-Down Shirt",
+    "description": "A retro-style button-down shirt with a relaxed fit.",
+    "price": 45.99,
+    "category": "Clothing - Shirts",
+    "ingredients": false
+  },
+  {
+    "id": "7f205f41-565a-46a3-9708-91d84ef6d5ae",
+    "name": "Beef Stroganoff Meal Kit",
+    "description": "Complete meal kit with everything needed to make beef stroganoff in under 30 minutes.",
+    "price": 12.99,
+    "category": "Food - Frozen Meals",
+    "ingredients": true
+  },
+  {
+    "id": "e837b049-33db-46d1-ba32-70cca9743e44",
+    "name": "Electric Bike",
+    "description": "Eco-friendly electric bike with a 30-mile range.",
+    "price": 899.99,
+    "category": "Bicycles",
+    "ingredients": true
+  },
+  {
+    "id": "36fdf0d9-e3e1-488a-99a7-4aa5ae0016e7",
+    "name": "Garden Tool Belt",
+    "description": "Handy belt for carrying garden tools while working.",
+    "price": 22.99,
+    "category": "Garden",
+    "ingredients": false
+  },
+  {
+    "id": "9ff68b3a-e749-4b85-862a-f0a3422c0039",
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "price": 25.99,
+    "category": "Electronics",
+    "ingredients": false
+  },
+  {
+    "id": "8617bb0b-02b7-4441-ad11-eb148e202c73",
+    "name": "Dishwasher Safe Cutting Board",
+    "description": "Eco-friendly cutting board that is safe for dishwashers.",
+    "price": 22.99,
+    "category": "Kitchen",
+    "ingredients": false
+  },
+  {
+    "id": "1156a59e-d819-4bbd-8aff-22d1e2d8ae7a",
+    "name": "Handcrafted Wooden Coasters",
+    "description": "Set of unique wooden coasters for drinks and decor.",
+    "price": 19.99,
+    "category": "Home",
+    "ingredients": false
+  },
+  {
+    "id": "db5d1403-8abb-4705-b5ae-efdb3710a1ab",
+    "name": "Gardening Fairy Figurines",
+    "description": "Cute fairy figurines to decorate your garden or potted plants.",
+    "price": 14.99,
+    "category": "Garden",
+    "ingredients": false
+  },
+  {
+    "id": "f44019be-23f4-4ebc-969f-dd4ec21e5cf3",
+    "name": "Throw Pillow Covers",
+    "description": "Set of decorative pillow covers to enhance your home decor.",
+    "price": 22.99,
+    "category": "Home",
+    "ingredients": true
+  },
+  {
+    "id": "7a821902-7e1b-43b7-a1c1-b7bb73dfa46a",
+    "name": "Coffee Making Kit",
+    "description": "Complete set to brew coffee with different methods.",
+    "price": 44.99,
+    "category": "Kitchen",
+    "ingredients": true
+  },
+  {
+    "id": "f3605fe4-75ee-48f5-8391-6ad0b17893a0",
+    "name": "Ground Cinnamon",
+    "description": "Freshly ground cinnamon spice for baking or seasoning.",
+    "price": 1.99,
+    "category": "Food - Spices",
+    "ingredients": true
+  },
+  {
+    "id": "0c0896a7-c9ff-4d59-813f-d53cc9d0bc0c",
+    "name": "Mango Chia Pudding",
+    "description": "Healthy chia pudding made with mango and coconut milk.",
+    "price": 4.49,
+    "category": "Food - Snacks",
+    "ingredients": true
+  },
+  {
+    "id": "1919eb91-d16c-472a-8f60-4f8aaa3b1150",
+    "name": "Honey Garlic Sauce",
+    "description": "A delicious sauce perfect for stir-frying or glazing meats.",
+    "price": 2.59,
+    "category": "Food - Sauces",
+    "ingredients": true
+  },
+  {
+    "id": "8ce5692e-f732-4d19-aa50-e9938142b74d",
+    "name": "Stylish Combat Boots",
+    "description": "Bold combat boots that make a statement with any outfit.",
+    "price": 99.99,
+    "category": "Clothing - Shoes",
+    "ingredients": false
+  },
+  {
+    "id": "3dae24a3-d89b-485e-bd0e-13bd655e5515",
+    "name": "High-Waisted Skirt",
+    "description": "Chic high-waisted skirt, perfect for professional or casual settings.",
+    "price": 34.99,
+    "category": "Clothing - Bottoms",
+    "ingredients": true
+  },
+  {
+    "id": "5771e7a5-2099-4e0f-9915-9b958d67b1dc",
+    "name": "Watercolor Set",
+    "description": "Complete watercolor set with paints and brushes.",
+    "price": 19.99,
+    "category": "Art Supplies",
+    "ingredients": false
+  },
+  {
+    "id": "3c248cea-b256-4ce9-a0db-824da6bf46cf",
+    "name": "Electric Screwdriver",
+    "description": "Cordless electric screwdriver for home projects.",
+    "price": 59.99,
+    "category": "Tools",
+    "ingredients": false
+  },
+  {
+    "id": "4e20acd0-b9f9-4be2-a7c3-52374a8b8293",
+    "name": "Herb-Infused Olive Oil",
+    "description": "Premium olive oil infused with herbs for enhanced flavor.",
+    "price": 8.99,
+    "category": "Food - Oils",
+    "ingredients": false
+  },
+  {
+    "id": "4256b7bf-5a5d-4918-86fe-4dbb954217ed",
+    "name": "Almond Butter Granola Bars",
+    "description": "Crunchy granola bars made with almond butter, oats, and honey, perfect for on-the-go snacking.",
+    "price": 4.99,
+    "category": "Food - Snacks",
+    "ingredients": true
+  },
+  {
+    "id": "a52dcd0a-b44e-40b2-9676-0f20fe6df847",
+    "name": "Fitness Foam Roller",
+    "description": "High-density foam roller for muscle recovery.",
+    "price": 29.99,
+    "category": "Fitness",
+    "ingredients": false
+  },
+  {
+    "id": "554cb70f-e32e-476a-9e6d-1f54140cfa86",
+    "name": "Gardening Kneeler and Seat",
+    "description": "Foldable kneeler that doubles as a seat for gardening convenience.",
+    "price": 39.99,
+    "category": "Garden",
+    "ingredients": true
+  },
+  {
+    "id": "1cb6e33d-c4f3-4b4d-bb85-59ea443199a4",
+    "name": "Banana Nut Oatmeal Cups",
+    "description": "Quick oatmeal cups with banana and nut flavor, great for breakfast.",
+    "price": 2.99,
+    "category": "Food - Breakfast",
+    "ingredients": false
+  },
+  {
+    "id": "54f76f94-cee4-45ba-b2f5-06ded43636a1",
+    "name": "Dark Chocolate Raisins",
+    "description": "Juicy raisins coated in rich dark chocolate.",
+    "price": 3.49,
+    "category": "Food - Snacks",
+    "ingredients": false
+  },
+  {
+    "id": "570d4073-48de-445d-8cc4-d9dc50f13edc",
+    "name": "Vegetable Lasagna",
+    "description": "Layers of pasta, veggies, and cheese baked to perfection.",
+    "price": 6.99,
+    "category": "Food - Frozen Foods",
+    "ingredients": false
+  },
+  {
+    "id": "f16f81a9-67d9-46e2-8af4-7a3ce947f65d",
+    "name": "Customizable Name Plate",
+    "description": "Personalized nameplate for offices or homes.",
+    "price": 19.99,
+    "category": "Office",
+    "ingredients": false
+  },
+  {
+    "id": "90a20cf4-d4f6-4f5d-a81d-d9b557fb3498",
+    "name": "Portable Pet Pooper Scooper",
+    "description": "Compact scooper for easy waste clean-up during walks.",
+    "price": 12.99,
+    "category": "Pets",
+    "ingredients": true
+  },
+  {
+    "id": "10f8afb8-e365-4908-be43-0653b71185e7",
+    "name": "Dog Collar",
+    "description": "Adjustable dog collar with personalized tags.",
+    "price": 15.99,
+    "category": "Pets",
+    "ingredients": true
+  },
+  {
+    "id": "6dd6655d-41f6-47c1-90ff-b96a3260fa1c",
+    "name": "Organic Apples",
+    "description": "Crisp and delicious organic apples.",
+    "price": 1.89,
+    "category": "Food - Produce",
+    "ingredients": true
+  },
+  {
+    "id": "afa5d0ff-eaee-407c-8e5c-0e52edc744d1",
+    "name": "Organic Chia Seeds",
+    "description": "Nutritious chia seeds great for smoothies",
+    "price": 7.99,
+    "category": "Food - Health Foods",
+    "ingredients": true
+  },
+  {
+    "id": "e5c39caa-2a63-49ff-87c7-f6c751dd4ae8",
+    "name": "Outdoor Mosquito Repellent Lantern",
+    "description": "Lantern that repels mosquitoes while providing light.",
+    "price": 34.99,
+    "category": "Outdoor",
+    "ingredients": false
+  },
+  {
+    "id": "3e903098-5695-48be-9c1a-686268668a13",
+    "name": "Protein Bar Variety Pack",
+    "description": "A pack of assorted nut and protein bars for a quick energy boost.",
+    "price": 12.99,
+    "category": "Food - Snacks",
+    "ingredients": true
+  },
+  {
+    "id": "5fa397cf-8478-4a80-a4d5-0a4207fa8de9",
+    "name": "Wall Art Stickers",
+    "description": "Removable wall art stickers for home decoration.",
+    "price": 19.99,
+    "category": "Home",
+    "ingredients": false
+  },
+  {
+    "id": "9d26fcf9-096a-49c9-9534-fcd834d59ab2",
+    "name": "Yoga Mat",
+    "description": "Non-slip yoga mat for optimal grip and comfort.",
+    "price": 25,
+    "category": "Fitness",
+    "ingredients": true
+  },
+  {
+    "id": "1e9112df-06cc-41b5-90d4-132f733efdf7",
+    "name": "Silicone Baking Molds",
+    "description": "Set of flexible molds for baking cakes and pastries.",
+    "price": 15.99,
+    "category": "Kitchen",
+    "ingredients": false
+  },
+  {
+    "id": "3c019966-9349-4e6d-bee0-ee1c514b2323",
+    "name": "Cinnamon Spiced Almonds",
+    "description": "Crispy almonds coated with cinnamon and sugar for a sweet and crunchy snack.",
+    "price": 5.99,
+    "category": "Food - Snacks",
+    "ingredients": false
+  },
+  {
+    "id": "7ec6181a-38df-4be8-800c-b0d6b87e3921",
+    "name": "Chipotle Sauce",
+    "description": "Spicy sauce made with chipotle peppers",
+    "price": 3.29,
+    "category": "Food - Condiments",
+    "ingredients": false
+  },
+  {
+    "id": "416373ae-c49e-43d8-821f-f80f2a2373d5",
+    "name": "Organic Baby Spinach",
+    "description": "Fresh baby spinach leaves, great for salads and smoothies.",
+    "price": 2.99,
+    "category": "Food - Produce",
+    "ingredients": true
+  },
+  {
+    "id": "67bd2fa8-35d2-47b5-abe3-88c7012ac602",
+    "name": "Strawberry Fruit Spread",
+    "description": "Natural fruit spread bursting with real strawberry flavor.",
+    "price": 3.59,
+    "category": "Food - Jams & Jellies",
+    "ingredients": true
+  },
+  {
+    "id": "a0510828-467a-4719-bd01-289bc66f1a9f",
+    "name": "Microwave Popcorn Maker",
+    "description": "Healthier way to make popcorn in the microwave without oil.",
+    "price": 19.99,
+    "category": "Kitchen",
+    "ingredients": true
+  },
+  {
+    "id": "5bafca22-3c3f-4b44-9563-4741ea87757a",
+    "name": "Outdoor Inflatable Pool",
+    "description": "Large inflatable pool for summer fun in your backyard.",
+    "price": 149.99,
+    "category": "Outdoor",
+    "ingredients": true
+  },
+  {
+    "id": "f4b03621-e030-4a3b-9980-82a1a9ca4442",
+    "name": "Ethically-Sourced Coffee Beans",
+    "description": "Freshly roasted coffee beans with rich flavor.",
+    "price": 9.99,
+    "category": "Food - Beverages",
+    "ingredients": false
+  },
+  {
+    "id": "a26bdb08-84ba-4e62-bb40-77c668db2013",
+    "name": "Dual Function Electric Skillet",
+    "description": "Skillet that can fry, grill, and sauté with ease.",
+    "price": 59.99,
+    "category": "Kitchen",
+    "ingredients": false
+  },
+  {
+    "id": "94774c09-c525-4e6e-ba1d-03a02cfdda6b",
+    "name": "Ricotta Cheese",
+    "description": "Creamy ricotta cheese, great for cooking or making desserts.",
+    "price": 4.99,
+    "category": "Food - Dairy",
+    "ingredients": false
+  },
+  {
+    "id": "52fdda67-402e-4322-8e4c-1c80e62b3e4c",
+    "name": "Crew Neck Sweater",
+    "description": "A comfortable crew neck sweater, great for all seasons.",
+    "price": 39.99,
+    "category": "Clothing - Sweaters",
+    "ingredients": true
+  },
+  {
+    "id": "b253e6ac-a3f1-4bca-852a-5b235266a684",
+    "name": "Action Camera",
+    "description": "Compact action camera for capturing adventures.",
+    "price": 199.99,
+    "category": "Electronics",
+    "ingredients": false
+  },
+  {
+    "id": "8f78b642-f9ad-407b-86e4-3fe8a42eb663",
+    "name": "Kids' Science Experiment Kit",
+    "description": "Engaging kit with science experiments for children.",
+    "price": 29.99,
+    "category": "Toys",
+    "ingredients": true
+  },
+  {
+    "id": "6f681d3a-0d6a-4499-a6c9-aa21d82117fe",
+    "name": "Ramen Noodle Soup Cups",
+    "description": "Instant ramen cups with flavor-packed broth.",
+    "price": 1.29,
+    "category": "Food - Prepared Meals",
+    "ingredients": true
+  },
+  {
+    "id": "a954ccf0-0aeb-4ad1-8a26-95c04c192ea2",
+    "name": "Spaghetti Squash",
+    "description": "Low-carb vegetable for pasta alternatives.",
+    "price": 3.99,
+    "category": "Food - Produce",
+    "ingredients": false
+  },
+  {
+    "id": "6b86d6d2-2bff-42aa-848d-1f4d371e0aa3",
+    "name": "Rolling Cooler",
+    "description": "Wheeled cooler for transporting drinks and snacks.",
+    "price": 59.99,
+    "category": "Outdoor",
+    "ingredients": true
+  },
+  {
+    "id": "1b54d5d1-0f01-4495-bc2d-72c3281efb46",
+    "name": "Teriyaki Chicken Bowl",
+    "description": "Ready-to-eat chicken bowl with teriyaki sauce and rice.",
+    "price": 6.49,
+    "category": "Food - Prepared Meals",
+    "ingredients": false
+  },
+  {
+    "id": "b12393c9-e0d4-46a0-9f0c-1f6a2224e101",
+    "name": "Self-Watering Planter",
+    "description": "Planter with self-watering feature for easy plant care.",
+    "price": 24.99,
+    "category": "Garden",
+    "ingredients": true
+  },
+  {
+    "id": "a633effd-8bfc-4229-8505-d200d363140a",
+    "name": "Pumpkin Waffles",
+    "description": "Delicious waffles infused with pumpkin and spices.",
+    "price": 4.49,
+    "category": "Food - Breakfast",
+    "ingredients": true
+  },
+  {
+    "id": "1079d331-eddf-40dc-af13-f3b5804def76",
+    "name": "Apple Cinnamon Breakfast Muffins",
+    "description": "Delicious muffins filled with apples and a hint of cinnamon for breakfast.",
+    "price": 3.49,
+    "category": "Food - Bakery",
+    "ingredients": false
+  },
+  {
+    "id": "211201fb-3fe1-40be-8c5d-142377eda072",
+    "name": "Toy Building Set",
+    "description": "Creative building set for kids to spark imagination.",
+    "price": 29.99,
+    "category": "Toys",
+    "ingredients": false
+  },
+  {
+    "id": "3d372a1d-3ede-4f85-a57a-daad4fa199ab",
+    "name": "Nutty Granola Clusters",
+    "description": "Crunchy granola clusters mixed with nuts and honey.",
+    "price": 2.49,
+    "category": "Food - Cereal",
+    "ingredients": false
+  },
+  {
+    "id": "51542add-3971-444f-9a54-d0e02341686a",
+    "name": "Blackberry Jam",
+    "description": "Delicious homemade style blackberry jam.",
+    "price": 4.29,
+    "category": "Food - Condiments",
+    "ingredients": false
+  },
+  {
+    "id": "3ae0fc09-b5ee-4127-b20c-f940ab09e0c8",
+    "name": "Peanut Butter Banana Smoothie Mix",
+    "description": "Smoothie mix combining peanut butter and banana, great for a quick breakfast.",
+    "price": 4.49,
+    "category": "Food - Beverages",
+    "ingredients": true
+  },
+  {
+    "id": "2c8d4547-e08d-4e6e-9f98-04a72ef7fa9d",
+    "name": "Kitchen Scale",
+    "description": "Digital scale for precise cooking measurements.",
+    "price": 19.99,
+    "category": "Kitchen",
+    "ingredients": true
+  },
+  {
+    "id": "964e287f-430a-4a04-a437-5c779649a15e",
+    "name": "Mini Cordless Vacuum Cleaner",
+    "description": "Handheld vacuum cleaner for quick and easy cleaning.",
+    "price": 45.99,
+    "category": "Home Appliances",
+    "ingredients": false
+  },
+  {
+    "id": "7aaf4da0-28bf-406d-818f-cf6ccf81e5ab",
+    "name": "Artisan Bread Loaf",
+    "description": "Fresh artisan bread, perfect for sandwiches",
+    "price": 3.99,
+    "category": "Food - Bakery",
+    "ingredients": true
+  },
+  {
+    "id": "8f9f15cf-ee62-4a28-aa18-209a9e4e0743",
+    "name": "Reversible Swimming Pool Lounger",
+    "description": "Floating lounger for relaxation in swimming pools or lakes.",
+    "price": 34.99,
+    "category": "Outdoor",
+    "ingredients": false
+  },
+  {
+    "id": "75d9eb86-08a3-4c4c-a6ec-0db23320197e",
+    "name": "Silicone Stretch Lids",
+    "description": "Reusable silicone lids for covering food in bowls and storage containers.",
+    "price": 14.99,
+    "category": "Kitchen",
+    "ingredients": false
+  },
+  {
+    "id": "15c0aa2c-4eee-4fbf-af47-6f90107126b5",
+    "name": "Frozen Chicken Nuggets",
+    "description": "Crispy chicken nuggets for quick meals.",
+    "price": 4.49,
+    "category": "Food - Frozen Foods",
+    "ingredients": true
+  },
+  {
+    "id": "06bfb23e-291b-4c28-bee4-0d1626a2a66e",
+    "name": "Cacao Powder",
+    "description": "Unsweetened cacao powder for baking and smoothies.",
+    "price": 4.49,
+    "category": "Food - Baking",
+    "ingredients": false
+  },
+  {
+    "id": "7ffa3145-0173-457a-acfc-25b8c6b2d91d",
+    "name": "Chino Shorts",
+    "description": "Classic chino shorts in a versatile color for summer adventures.",
+    "price": 34.99,
+    "category": "Clothing - Bottoms",
+    "ingredients": false
+  },
+  {
+    "id": "d3129c45-f8a3-4ae3-a930-6bfeb5ddb881",
+    "name": "Smoked Salmon",
+    "description": "Deliciously smoked salmon, great for bagels.",
+    "price": 14.99,
+    "category": "Food - Seafood",
+    "ingredients": true
+  },
+  {
+    "id": "72885556-e91b-478b-a910-589def299d9f",
+    "name": "Rechargeable Electric Screwdriver",
+    "description": "Convenient electric screwdriver for DIY projects at home.",
+    "price": 39.99,
+    "category": "Tools",
+    "ingredients": true
+  },
+  {
+    "id": "4300255a-3a5d-44cc-acef-1d295cc5e3ec",
+    "name": "Lemon Garlic Marinade",
+    "description": "A zesty marinade made with lemon juice and garlic, ideal for chicken or fish.",
+    "price": 4.29,
+    "category": "Food - Condiments",
+    "ingredients": true
+  },
+  {
+    "id": "f02eb1c7-23a2-4e4e-9839-4ddaa8ad5338",
+    "name": "Organic Apples",
+    "description": "Crisp and delicious organic apples.",
+    "price": 1.89,
+    "category": "Food - Produce",
+    "ingredients": false
+  },
+  {
+    "id": "d2398f76-6889-455d-90fe-091250389b71",
+    "name": "Dark Chocolate Tart",
+    "description": "Decadent tart made with rich dark chocolate.",
+    "price": 6.29,
+    "category": "Food - Desserts",
+    "ingredients": true
+  },
+  {
+    "id": "a8969367-8bfa-4973-95b0-31753ead2a19",
+    "name": "Lemon Sorbet",
+    "description": "Refreshing sorbet with a zesty lemon flavor.",
+    "price": 4.99,
+    "category": "Food - Frozen Desserts",
+    "ingredients": true
+  },
+  {
+    "id": "6f8f1582-be85-4509-9fe4-440dc696ef1b",
+    "name": "Water Bottle",
+    "description": "Insulated water bottle for keeping drinks cold.",
+    "price": 18.99,
+    "category": "Fitness",
+    "ingredients": false
+  },
+  {
+    "id": "2f10440a-e925-49b3-bad9-1a05e7c1855b",
+    "name": "Motorcycle Phone Mount",
+    "description": "Universal mount for smartphones on motorcycles.",
+    "price": 14.99,
+    "category": "Automotive",
+    "ingredients": true
+  },
+  {
+    "id": "efa3a228-b720-44ba-ad96-a41267547d61",
+    "name": "Adjustable Window Blind",
+    "description": "Customizable window cover for light control and privacy.",
+    "price": 49.99,
+    "category": "Home",
+    "ingredients": false
+  },
+  {
+    "id": "cf2d9f00-630e-4e02-b406-258cff68723a",
+    "name": "Wall Planner",
+    "description": "Large wall planner for organizing schedules.",
+    "price": 19.99,
+    "category": "Office",
+    "ingredients": false
+  },
+  {
+    "id": "6a6d2a9d-4848-4287-b49c-6617bc7a0540",
+    "name": "Luxe Velvet Blazer",
+    "description": "Elevate your outfit with this sophisticated velvet blazer.",
+    "price": 89.99,
+    "category": "Clothing - Outerwear",
+    "ingredients": false
+  },
+  {
+    "id": "cf69b79a-53cd-4a15-92fe-45f68957457f",
+    "name": "Folding Backpack Chair",
+    "description": "Versatile chair that easily folds up for carrying.",
+    "price": 49.99,
+    "category": "Outdoor",
+    "ingredients": false
+  },
+  {
+    "id": "57168af2-5c3c-4e27-aa20-710f62993470",
+    "name": "Vegetable Broth",
+    "description": "Rich vegetable broth for soups and stews.",
+    "price": 2.29,
+    "category": "Food - Canned Goods",
+    "ingredients": false
+  },
+  {
+    "id": "c25df2ea-b581-4678-be74-15d63d9dc2b8",
+    "name": "Lightweight Rain Jacket",
+    "description": "Water-resistant jacket ideal for outdoor activities, featuring a packable design.",
+    "price": 79.99,
+    "category": "Clothing - Outerwear",
+    "ingredients": true
+  },
+  {
+    "id": "8902b9eb-54d2-433f-b10d-065c725acdc0",
+    "name": "Camping Tent",
+    "description": "Spacious 2-person camping tent with waterproof cover.",
+    "price": 79.99,
+    "category": "Outdoor",
+    "ingredients": false
+  }
+]
